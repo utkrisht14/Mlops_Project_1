@@ -1,0 +1,12 @@
+2025-12-17 01:14:22,101 - INFO Starting our Model training pipeline
+2025-12-17 01:14:22,102 - INFO Starting our MLFLOW experimentation.
+2025-12-17 01:14:22,102 - INFO Logging the training and testing dataset to MLFLOW
+2025-12-17 01:14:22,127 - INFO Loading data: artifacts/processed\processed_train.csv
+2025-12-17 01:14:22,128 - INFO Loading data
+2025-12-17 01:14:22,154 - INFO Loading data: artifacts/processed\processed_train.csv
+2025-12-17 01:14:22,155 - INFO Loading data
+2025-12-17 01:14:22,169 - INFO Data splitted sucefully for Model Training
+2025-12-17 01:14:22,169 - INFO Intializing our model
+2025-12-17 01:14:22,169 - INFO Starting our Hyperparamter tuning.
+2025-12-17 01:14:22,169 - INFO Starting hyperparameter tuning.
+2025-12-17 01:14:22,185 - ERROR Error in model training pipeline cannot access local variable 'best_params' where it is not associated with a value

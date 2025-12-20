@@ -1,0 +1,73 @@
+2025-12-20 17:21:54,841 - INFO Successfully read the yaml file
+2025-12-20 17:21:54,842 - INFO Data Ingestion started with utk_temp_bucket and file is Hotel_Reservations.csv
+2025-12-20 17:21:54,842 - INFO Starting data ingestion process.
+2025-12-20 17:22:01,257 - ERROR Error while downloading the CSV file.
+2025-12-20 17:22:01,257 - ERROR CustomException: Error in C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\src\data_ingestion.py , line 29 : Failed to download csv file.
+2025-12-20 17:22:01,257 - INFO Data ingestion process completed.
+2025-12-20 17:22:01,259 - INFO Successfully read the yaml file
+2025-12-20 17:22:01,260 - INFO Loading data from RAW directory.
+2025-12-20 17:22:01,260 - INFO Loading data
+2025-12-20 17:22:01,316 - INFO Loading data
+2025-12-20 17:22:01,331 - INFO Starting our data processing step.
+2025-12-20 17:22:01,331 - INFO Dropping the columns
+2025-12-20 17:22:01,349 - INFO Applying label encoding.
+2025-12-20 17:22:01,363 - INFO Label mappings are: 
+2025-12-20 17:22:01,363 - INFO type_of_meal_plan: {'Meal Plan 1': 0, 'Meal Plan 2': 1, 'Meal Plan 3': 2, 'Not Selected': 3}
+2025-12-20 17:22:01,364 - INFO required_car_parking_space: {0: 0, 1: 1}
+2025-12-20 17:22:01,364 - INFO room_type_reserved: {'Room_Type 1': 0, 'Room_Type 2': 1, 'Room_Type 3': 2, 'Room_Type 4': 3, 'Room_Type 5': 4, 'Room_Type 6': 5, 'Room_Type 7': 6}
+2025-12-20 17:22:01,364 - INFO market_segment_type: {'Aviation': 0, 'Complementary': 1, 'Corporate': 2, 'Offline': 3, 'Online': 4}
+2025-12-20 17:22:01,364 - INFO repeated_guest: {0: 0, 1: 1}
+2025-12-20 17:22:01,364 - INFO booking_status: {'Canceled': 0, 'Not_Canceled': 1}
+2025-12-20 17:22:01,364 - INFO Doing skewness handling.
+2025-12-20 17:22:01,368 - INFO Starting our data processing step.
+2025-12-20 17:22:01,368 - INFO Dropping the columns
+2025-12-20 17:22:01,373 - INFO Applying label encoding.
+2025-12-20 17:22:01,378 - INFO Label mappings are: 
+2025-12-20 17:22:01,378 - INFO type_of_meal_plan: {'Meal Plan 1': 0, 'Meal Plan 2': 1, 'Meal Plan 3': 2, 'Not Selected': 3}
+2025-12-20 17:22:01,378 - INFO required_car_parking_space: {0: 0, 1: 1}
+2025-12-20 17:22:01,378 - INFO room_type_reserved: {'Room_Type 1': 0, 'Room_Type 2': 1, 'Room_Type 3': 2, 'Room_Type 4': 3, 'Room_Type 5': 4, 'Room_Type 6': 5, 'Room_Type 7': 6}
+2025-12-20 17:22:01,378 - INFO market_segment_type: {'Aviation': 0, 'Complementary': 1, 'Corporate': 2, 'Offline': 3, 'Online': 4}
+2025-12-20 17:22:01,379 - INFO repeated_guest: {0: 0, 1: 1}
+2025-12-20 17:22:01,379 - INFO booking_status: {'Canceled': 0, 'Not_Canceled': 1}
+2025-12-20 17:22:01,379 - INFO Doing skewness handling.
+2025-12-20 17:22:01,381 - INFO Starting Imbalanced Data.
+2025-12-20 17:22:03,922 - INFO Data balancing successfully completed.
+2025-12-20 17:22:03,923 - INFO Starting Imbalanced Data.
+2025-12-20 17:22:03,942 - INFO Data balancing successfully completed.
+2025-12-20 17:22:03,943 - INFO Starting our feature selection step.
+2025-12-20 17:22:09,170 - INFO Features selected: ['lead_time' 'no_of_special_requests' 'avg_price_per_room' 'arrival_month'
+ 'arrival_date' 'market_segment_type' 'no_of_week_nights'
+ 'no_of_weekend_nights' 'type_of_meal_plan' 'room_type_reserved']
+2025-12-20 17:22:09,171 - INFO Feature selection completed successfully.
+2025-12-20 17:22:09,176 - INFO Starting our feature selection step.
+2025-12-20 17:22:10,662 - INFO Features selected: ['lead_time' 'no_of_special_requests' 'avg_price_per_room' 'arrival_month'
+ 'arrival_date' 'market_segment_type' 'no_of_week_nights'
+ 'no_of_weekend_nights' 'type_of_meal_plan' 'room_type_reserved']
+2025-12-20 17:22:10,664 - INFO Feature selection completed successfully.
+2025-12-20 17:22:10,667 - INFO Saving data in processed folder.
+2025-12-20 17:22:10,995 - INFO Data saved successfully to artifacts/processed\processed_train.csv
+2025-12-20 17:22:10,995 - INFO Saving data in processed folder.
+2025-12-20 17:22:11,082 - INFO Data saved successfully to artifacts/processed\processed_test.csv
+2025-12-20 17:22:11,082 - INFO Data preprocessing completed.
+2025-12-20 17:22:12,719 - INFO Starting our Model training pipeline
+2025-12-20 17:22:12,720 - INFO Starting our MLFLOW experimentation.
+2025-12-20 17:22:12,720 - INFO Logging the training and testing dataset to MLFLOW
+2025-12-20 17:22:13,055 - INFO Loading data: artifacts/processed\processed_train.csv
+2025-12-20 17:22:13,055 - INFO Loading data
+2025-12-20 17:22:13,074 - INFO Loading data: artifacts/processed\processed_test.csv
+2025-12-20 17:22:13,074 - INFO Loading data
+2025-12-20 17:22:13,082 - INFO Data splitted sucefully for Model Training
+2025-12-20 17:22:13,082 - INFO Intializing our model
+2025-12-20 17:22:13,082 - INFO Starting our Hyperparamter tuning.
+2025-12-20 17:22:13,082 - INFO Starting hyperparameter tuning.
+2025-12-20 17:22:23,959 - INFO Hyperparamter tuning completed
+2025-12-20 17:22:23,959 - INFO Best params: {'boosting_type': 'gbdt', 'learning_rate': 0.1293700315892974, 'max_depth': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-12-20 17:22:23,959 - INFO Evaluating model.
+2025-12-20 17:22:24,021 - INFO Accuracy Score : 0.8814506539833532
+2025-12-20 17:22:24,021 - INFO Precision Score : 0.8670480549199084
+2025-12-20 17:22:24,021 - INFO Recall Score : 0.9010701545778834
+2025-12-20 17:22:24,021 - INFO F1 Score : 0.883731778425656
+2025-12-20 17:22:24,022 - INFO Saving model
+2025-12-20 17:22:24,086 - INFO Saved model: artifacts/models/lgbm_model.pkl
+2025-12-20 17:22:24,086 - INFO Logging the model into MLFlow.
+2025-12-20 17:22:24,145 - INFO Logging the training and testing dataset to MLFlow.

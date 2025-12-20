@@ -1,0 +1,25 @@
+2025-12-14 14:47:02,712 - ERROR Error while reading YAML file.
+2025-12-14 14:48:36,999 - ERROR Error while reading YAML file.
+2025-12-14 14:56:18,644 - INFO Successfully read the yaml file
+2025-12-14 14:56:18,645 - INFO Data Ingestion started with utk_temp_bucket and file is Hotel_Reservations.csv
+2025-12-14 14:56:18,646 - INFO Starting data ingestion process.
+2025-12-14 14:56:21,254 - WARNING No project ID could be determined. Consider running `gcloud config set project` or setting the GOOGLE_CLOUD_PROJECT environment variable
+2025-12-14 14:56:21,254 - ERROR Error while downloading the CSV file.
+2025-12-14 14:56:21,255 - ERROR CustomException: ('Failed to download csv file.', OSError('Project was not passed and could not be determined from the environment.'))
+2025-12-14 14:56:21,255 - INFO Data ingestion process completed.
+2025-12-14 14:58:01,809 - INFO Successfully read the yaml file
+2025-12-14 14:58:01,810 - INFO Data Ingestion started with utk_temp_bucket and file is Hotel_Reservations.csv
+2025-12-14 14:58:01,810 - INFO Starting data ingestion process.
+2025-12-14 14:58:03,743 - WARNING No project ID could be determined. Consider running `gcloud config set project` or setting the GOOGLE_CLOUD_PROJECT environment variable
+2025-12-14 14:58:03,743 - ERROR Error while downloading the CSV file.
+2025-12-14 14:58:03,743 - ERROR CustomException: ('Failed to download csv file.', OSError('Project was not passed and could not be determined from the environment.'))
+2025-12-14 14:58:03,743 - INFO Data ingestion process completed.
+2025-12-14 15:06:12,123 - INFO Successfully read the yaml file
+2025-12-14 15:06:12,125 - INFO Data Ingestion started with utk_temp_bucket and file is Hotel_Reservations.csv
+2025-12-14 15:06:12,125 - INFO Starting data ingestion process.
+2025-12-14 15:06:16,787 - INFO Raw file is successfully downloaded to C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\artifacts\raw\raw.csv
+2025-12-14 15:06:16,788 - INFO Starting the splitting process.
+2025-12-14 15:06:17,079 - INFO Train data saved to C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\artifacts\raw\train.csv.
+2025-12-14 15:06:17,079 - INFO Test data saved to C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\artifacts\raw\test.csv
+2025-12-14 15:06:17,081 - INFO Data ingestion completed successfully.
+2025-12-14 15:06:17,082 - INFO Data ingestion process completed.

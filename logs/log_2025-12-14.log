@@ -1,0 +1,28 @@
+2025-12-14 14:39:14,364 - INFO Successfully read the yaml file
+2025-12-14 14:39:14,365 - INFO Data Ingestion started with utk_temp_bucket and file is Hotel_Reservations.csv
+2025-12-14 14:39:14,365 - INFO Starting data ingestion process.
+2025-12-14 14:39:18,475 - WARNING No project ID could be determined. Consider running `gcloud config set project` or setting the GOOGLE_CLOUD_PROJECT environment variable
+2025-12-14 14:39:18,476 - ERROR Error while downloading the CSV file.
+2025-12-14 14:39:18,476 - ERROR CustomException: ('Failed to download csv file.', OSError('Project was not passed and could not be determined from the environment.'))
+2025-12-14 14:39:18,477 - INFO Data ingestion process completed.
+2025-12-14 14:39:25,839 - INFO Successfully read the yaml file
+2025-12-14 14:39:25,839 - INFO Data Ingestion started with utk_temp_bucket and file is Hotel_Reservations.csv
+2025-12-14 14:39:25,839 - INFO Starting data ingestion process.
+2025-12-14 14:39:27,540 - WARNING No project ID could be determined. Consider running `gcloud config set project` or setting the GOOGLE_CLOUD_PROJECT environment variable
+2025-12-14 14:39:27,540 - ERROR Error while downloading the CSV file.
+2025-12-14 14:39:27,540 - ERROR CustomException: ('Failed to download csv file.', OSError('Project was not passed and could not be determined from the environment.'))
+2025-12-14 14:39:27,540 - INFO Data ingestion process completed.
+2025-12-14 14:46:09,774 - INFO Successfully read the yaml file
+2025-12-14 14:46:09,775 - INFO Data Ingestion started with utk_temp_bucket and file is Hotel_Reservations.csv
+2025-12-14 14:46:09,775 - INFO Starting data ingestion process.
+2025-12-14 14:46:11,464 - WARNING No project ID could be determined. Consider running `gcloud config set project` or setting the GOOGLE_CLOUD_PROJECT environment variable
+2025-12-14 14:46:11,465 - ERROR Error while downloading the CSV file.
+2025-12-14 14:46:11,465 - ERROR CustomException: ('Failed to download csv file.', OSError('Project was not passed and could not be determined from the environment.'))
+2025-12-14 14:46:11,465 - INFO Data ingestion process completed.
+2025-12-14 14:58:50,817 - INFO Successfully read the yaml file
+2025-12-14 14:58:50,818 - INFO Data Ingestion started with utk_temp_bucket and file is Hotel_Reservations.csv
+2025-12-14 14:58:50,818 - INFO Starting data ingestion process.
+2025-12-14 14:58:52,645 - WARNING No project ID could be determined. Consider running `gcloud config set project` or setting the GOOGLE_CLOUD_PROJECT environment variable
+2025-12-14 14:58:52,646 - ERROR Error while downloading the CSV file.
+2025-12-14 14:58:52,646 - ERROR CustomException: ('Failed to download csv file.', OSError('Project was not passed and could not be determined from the environment.'))
+2025-12-14 14:58:52,646 - INFO Data ingestion process completed.

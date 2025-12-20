@@ -1,0 +1,8 @@
+setup.py
+src/mlops_project_1.egg-info/PKG-INFO
+src/mlops_project_1.egg-info/SOURCES.txt
+src/mlops_project_1.egg-info/dependency_links.txt
+src/mlops_project_1.egg-info/requires.txt
+src/mlops_project_1.egg-info/top_level.txt
+src/training_pipeline/__init__.py
+src/training_pipeline/training_pipeline.py

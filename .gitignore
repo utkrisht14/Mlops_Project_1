@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# ML artifacts
+*.pkl
+*.joblib
+*.h5
+mlruns/
+models/
+artifacts/

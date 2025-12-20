@@ -1,0 +1,128 @@
+2025-12-16 23:41:18,088 - INFO Successfully read the yaml file
+2025-12-16 23:41:18,090 - INFO Loading data from RAW directory.
+2025-12-16 23:41:18,090 - INFO Loading data
+2025-12-16 23:41:18,200 - INFO Loading data
+2025-12-16 23:41:18,223 - INFO Starting our data processing step.
+2025-12-16 23:41:18,223 - INFO Dropping the columns
+2025-12-16 23:41:18,264 - ERROR Error occurred while preprocessing data: 'cat_cols'
+2025-12-16 23:41:18,264 - ERROR Error occurred while preprocessing data: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-12-16 23:42:36,009 - INFO Successfully read the yaml file
+2025-12-16 23:42:36,010 - INFO Loading data from RAW directory.
+2025-12-16 23:42:36,011 - INFO Loading data
+2025-12-16 23:42:36,059 - INFO Loading data
+2025-12-16 23:42:36,071 - INFO Starting our data processing step.
+2025-12-16 23:42:36,071 - INFO Dropping the columns
+2025-12-16 23:42:36,086 - ERROR Error occurred while preprocessing data: 'categorical_cols'
+2025-12-16 23:42:36,086 - ERROR Error occurred while preprocessing data: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-12-16 23:43:13,263 - INFO Successfully read the yaml file
+2025-12-16 23:43:13,264 - INFO Loading data from RAW directory.
+2025-12-16 23:43:13,264 - INFO Loading data
+2025-12-16 23:43:13,314 - INFO Loading data
+2025-12-16 23:43:13,324 - INFO Starting our data processing step.
+2025-12-16 23:43:13,324 - INFO Dropping the columns
+2025-12-16 23:43:13,339 - INFO Applying label encoding.
+2025-12-16 23:43:13,363 - INFO Label mappings are: 
+2025-12-16 23:43:13,363 - INFO type_of_meal_plan: {'Meal Plan 1': 0, 'Meal Plan 2': 1, 'Meal Plan 3': 2, 'Not Selected': 3}
+2025-12-16 23:43:13,363 - INFO required_car_parking_space: {0: 0, 1: 1}
+2025-12-16 23:43:13,363 - INFO room_type_reserved: {'Room_Type 1': 0, 'Room_Type 2': 1, 'Room_Type 3': 2, 'Room_Type 4': 3, 'Room_Type 5': 4, 'Room_Type 6': 5, 'Room_Type 7': 6}
+2025-12-16 23:43:13,363 - INFO market_segment_type: {'Aviation': 0, 'Complementary': 1, 'Corporate': 2, 'Offline': 3, 'Online': 4}
+2025-12-16 23:43:13,363 - INFO repeated_guest: {0: 0, 1: 1}
+2025-12-16 23:43:13,363 - INFO booking_status: {'Canceled': 0, 'Not_Canceled': 1}
+2025-12-16 23:43:13,363 - INFO Doing skewness handling.
+2025-12-16 23:43:13,364 - ERROR Error occurred while preprocessing data: 'skew_threshold'
+2025-12-16 23:43:13,364 - ERROR Error occurred while preprocessing data: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-12-16 23:43:42,839 - INFO Successfully read the yaml file
+2025-12-16 23:43:42,840 - INFO Loading data from RAW directory.
+2025-12-16 23:43:42,840 - INFO Loading data
+2025-12-16 23:43:42,889 - INFO Loading data
+2025-12-16 23:43:42,900 - INFO Starting our data processing step.
+2025-12-16 23:43:42,900 - INFO Dropping the columns
+2025-12-16 23:43:42,916 - INFO Applying label encoding.
+2025-12-16 23:43:42,927 - INFO Label mappings are: 
+2025-12-16 23:43:42,927 - INFO type_of_meal_plan: {'Meal Plan 1': 0, 'Meal Plan 2': 1, 'Meal Plan 3': 2, 'Not Selected': 3}
+2025-12-16 23:43:42,928 - INFO required_car_parking_space: {0: 0, 1: 1}
+2025-12-16 23:43:42,928 - INFO room_type_reserved: {'Room_Type 1': 0, 'Room_Type 2': 1, 'Room_Type 3': 2, 'Room_Type 4': 3, 'Room_Type 5': 4, 'Room_Type 6': 5, 'Room_Type 7': 6}
+2025-12-16 23:43:42,928 - INFO market_segment_type: {'Aviation': 0, 'Complementary': 1, 'Corporate': 2, 'Offline': 3, 'Online': 4}
+2025-12-16 23:43:42,928 - INFO repeated_guest: {0: 0, 1: 1}
+2025-12-16 23:43:42,928 - INFO booking_status: {'Canceled': 0, 'Not_Canceled': 1}
+2025-12-16 23:43:42,928 - INFO Doing skewness handling.
+2025-12-16 23:43:42,928 - ERROR Error occurred while preprocessing data: 'skew_threshold'
+2025-12-16 23:43:42,928 - ERROR Error occurred while preprocessing data: Error in C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\src\data_preprocessing.py , line 54 : Error while pre_processed data.
+2025-12-16 23:44:26,687 - INFO Successfully read the yaml file
+2025-12-16 23:44:26,688 - INFO Loading data from RAW directory.
+2025-12-16 23:44:26,688 - INFO Loading data
+2025-12-16 23:44:26,739 - INFO Loading data
+2025-12-16 23:44:26,751 - INFO Starting our data processing step.
+2025-12-16 23:44:26,751 - INFO Dropping the columns
+2025-12-16 23:44:26,768 - INFO Applying label encoding.
+2025-12-16 23:44:26,781 - INFO Label mappings are: 
+2025-12-16 23:44:26,781 - INFO type_of_meal_plan: {'Meal Plan 1': 0, 'Meal Plan 2': 1, 'Meal Plan 3': 2, 'Not Selected': 3}
+2025-12-16 23:44:26,782 - INFO required_car_parking_space: {0: 0, 1: 1}
+2025-12-16 23:44:26,782 - INFO room_type_reserved: {'Room_Type 1': 0, 'Room_Type 2': 1, 'Room_Type 3': 2, 'Room_Type 4': 3, 'Room_Type 5': 4, 'Room_Type 6': 5, 'Room_Type 7': 6}
+2025-12-16 23:44:26,782 - INFO market_segment_type: {'Aviation': 0, 'Complementary': 1, 'Corporate': 2, 'Offline': 3, 'Online': 4}
+2025-12-16 23:44:26,782 - INFO repeated_guest: {0: 0, 1: 1}
+2025-12-16 23:44:26,782 - INFO booking_status: {'Canceled': 0, 'Not_Canceled': 1}
+2025-12-16 23:44:26,782 - INFO Doing skewness handling.
+2025-12-16 23:44:26,787 - INFO Starting our data processing step.
+2025-12-16 23:44:26,787 - INFO Dropping the columns
+2025-12-16 23:44:26,792 - INFO Applying label encoding.
+2025-12-16 23:44:26,797 - INFO Label mappings are: 
+2025-12-16 23:44:26,797 - INFO type_of_meal_plan: {'Meal Plan 1': 0, 'Meal Plan 2': 1, 'Meal Plan 3': 2, 'Not Selected': 3}
+2025-12-16 23:44:26,797 - INFO required_car_parking_space: {0: 0, 1: 1}
+2025-12-16 23:44:26,797 - INFO room_type_reserved: {'Room_Type 1': 0, 'Room_Type 2': 1, 'Room_Type 3': 2, 'Room_Type 4': 3, 'Room_Type 5': 4, 'Room_Type 6': 5, 'Room_Type 7': 6}
+2025-12-16 23:44:26,797 - INFO market_segment_type: {'Aviation': 0, 'Complementary': 1, 'Corporate': 2, 'Offline': 3, 'Online': 4}
+2025-12-16 23:44:26,797 - INFO repeated_guest: {0: 0, 1: 1}
+2025-12-16 23:44:26,797 - INFO booking_status: {'Canceled': 0, 'Not_Canceled': 1}
+2025-12-16 23:44:26,797 - INFO Doing skewness handling.
+2025-12-16 23:44:26,799 - INFO Starting Imbalanced Data.
+2025-12-16 23:44:28,776 - INFO Data balancing successfully completed.
+2025-12-16 23:44:28,776 - INFO Starting Imbalanced Data.
+2025-12-16 23:44:28,788 - INFO Data balancing successfully completed.
+2025-12-16 23:44:28,789 - INFO Starting our feature selection step.
+2025-12-16 23:44:31,532 - ERROR Error occurred while selecting features: 'num_features'
+2025-12-16 23:44:31,532 - ERROR Error occurred while preprocessing data: Error in C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\src\data_preprocessing.py , line 108 : Error occurred while selecting features
+2025-12-16 23:45:50,445 - INFO Successfully read the yaml file
+2025-12-16 23:45:50,446 - INFO Loading data from RAW directory.
+2025-12-16 23:45:50,446 - INFO Loading data
+2025-12-16 23:45:50,503 - INFO Loading data
+2025-12-16 23:45:50,515 - INFO Starting our data processing step.
+2025-12-16 23:45:50,515 - INFO Dropping the columns
+2025-12-16 23:45:50,532 - INFO Applying label encoding.
+2025-12-16 23:45:50,545 - INFO Label mappings are: 
+2025-12-16 23:45:50,545 - INFO type_of_meal_plan: {'Meal Plan 1': 0, 'Meal Plan 2': 1, 'Meal Plan 3': 2, 'Not Selected': 3}
+2025-12-16 23:45:50,545 - INFO required_car_parking_space: {0: 0, 1: 1}
+2025-12-16 23:45:50,545 - INFO room_type_reserved: {'Room_Type 1': 0, 'Room_Type 2': 1, 'Room_Type 3': 2, 'Room_Type 4': 3, 'Room_Type 5': 4, 'Room_Type 6': 5, 'Room_Type 7': 6}
+2025-12-16 23:45:50,545 - INFO market_segment_type: {'Aviation': 0, 'Complementary': 1, 'Corporate': 2, 'Offline': 3, 'Online': 4}
+2025-12-16 23:45:50,546 - INFO repeated_guest: {0: 0, 1: 1}
+2025-12-16 23:45:50,546 - INFO booking_status: {'Canceled': 0, 'Not_Canceled': 1}
+2025-12-16 23:45:50,546 - INFO Doing skewness handling.
+2025-12-16 23:45:50,549 - INFO Starting our data processing step.
+2025-12-16 23:45:50,550 - INFO Dropping the columns
+2025-12-16 23:45:50,554 - INFO Applying label encoding.
+2025-12-16 23:45:50,559 - INFO Label mappings are: 
+2025-12-16 23:45:50,559 - INFO type_of_meal_plan: {'Meal Plan 1': 0, 'Meal Plan 2': 1, 'Meal Plan 3': 2, 'Not Selected': 3}
+2025-12-16 23:45:50,559 - INFO required_car_parking_space: {0: 0, 1: 1}
+2025-12-16 23:45:50,560 - INFO room_type_reserved: {'Room_Type 1': 0, 'Room_Type 2': 1, 'Room_Type 3': 2, 'Room_Type 4': 3, 'Room_Type 5': 4, 'Room_Type 6': 5, 'Room_Type 7': 6}
+2025-12-16 23:45:50,560 - INFO market_segment_type: {'Aviation': 0, 'Complementary': 1, 'Corporate': 2, 'Offline': 3, 'Online': 4}
+2025-12-16 23:45:50,560 - INFO repeated_guest: {0: 0, 1: 1}
+2025-12-16 23:45:50,560 - INFO booking_status: {'Canceled': 0, 'Not_Canceled': 1}
+2025-12-16 23:45:50,560 - INFO Doing skewness handling.
+2025-12-16 23:45:50,562 - INFO Starting Imbalanced Data.
+2025-12-16 23:45:52,738 - INFO Data balancing successfully completed.
+2025-12-16 23:45:52,738 - INFO Starting Imbalanced Data.
+2025-12-16 23:45:52,752 - INFO Data balancing successfully completed.
+2025-12-16 23:45:52,752 - INFO Starting our feature selection step.
+2025-12-16 23:45:55,542 - INFO Features selected: ['lead_time' 'no_of_special_requests' 'avg_price_per_room' 'arrival_month'
+ 'arrival_date' 'market_segment_type' 'no_of_week_nights'
+ 'no_of_weekend_nights' 'type_of_meal_plan' 'room_type_reserved']
+2025-12-16 23:45:55,543 - INFO Feature selection completed successfully.
+2025-12-16 23:45:55,547 - INFO Starting our feature selection step.
+2025-12-16 23:45:56,353 - INFO Features selected: ['lead_time' 'no_of_special_requests' 'avg_price_per_room' 'arrival_month'
+ 'arrival_date' 'market_segment_type' 'no_of_week_nights'
+ 'no_of_weekend_nights' 'type_of_meal_plan' 'room_type_reserved']
+2025-12-16 23:45:56,354 - INFO Feature selection completed successfully.
+2025-12-16 23:45:56,354 - INFO Saving data in processed folder.
+2025-12-16 23:45:56,606 - INFO Data saved successfully to artifacts/processed\processed_train.csv
+2025-12-16 23:45:56,606 - INFO Saving data in processed folder.
+2025-12-16 23:45:56,701 - INFO Data saved successfully to artifacts/processed\processed_test.csv
+2025-12-16 23:45:56,701 - INFO Data preprocessing completed.

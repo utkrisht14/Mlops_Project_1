@@ -10,5 +10,6 @@ Requires-Dist: pyyaml==6.0.1
 Requires-Dist: imbalanced-learn==0.11.0
 Requires-Dist: lightgbm==4.1.0
 Requires-Dist: mlflow==2.9.2
+Requires-Dist: Flask==2.3.3
 Dynamic: author
 Dynamic: requires-dist

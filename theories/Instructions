@@ -1,0 +1,6 @@
+1. Setup Jenkins
+2. GitHub Integrations
+3. Dockerization of the project
+4. Create a Virtual Environment in our Jenkins
+5. Build docker image of the project. Then push the project to Google Cloud Registry(GCR)
+6. Now we have image in the Google Cloud Registry. Extract image from GCR. Then push to Google Cloud Run.

@@ -22,7 +22,12 @@ PROCESSED_TEST_DATA_PATH = os.path.join(PROCESSED_DIR, "processed_test.csv")
 
 ################ MODEL ################
 
-MODEL_OUTPUT_PATH = os.path.join(MODELS_DIR, "lgbm_model.pkl")
+MODEL_OUTPUT_PATH = os.path.join(
+    PROJECT_ROOT,
+    "artifacts",
+    "models",
+    "lgbm_model.pkl"
+)
 
 ################ CONFIG ################
 

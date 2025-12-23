@@ -1,0 +1,38 @@
+2025-12-21 23:11:10,934 - ERROR Error in model training pipeline Yaml file 'C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\src\mlruns\0\meta.yaml' does not exist.
+2025-12-21 23:23:40,062 - ERROR Error in model training pipeline Yaml file 'C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\src\mlruns\0\meta.yaml' does not exist.
+2025-12-21 23:31:50,019 - INFO Starting Model training pipeline
+2025-12-21 23:31:50,431 - INFO Loading data: artifacts/processed\processed_train.csv
+2025-12-21 23:31:50,431 - INFO Loading data
+2025-12-21 23:31:50,458 - INFO Loading data: artifacts/processed\processed_test.csv
+2025-12-21 23:31:50,459 - INFO Loading data
+2025-12-21 23:31:50,467 - INFO Data splitted sucefully for Model Training
+2025-12-21 23:31:50,467 - INFO Intializing our model
+2025-12-21 23:31:50,467 - INFO Starting our Hyperparamter tuning.
+2025-12-21 23:31:50,467 - INFO Starting hyperparameter tuning.
+2025-12-21 23:32:04,201 - INFO Hyperparamter tuning completed
+2025-12-21 23:32:04,201 - INFO Best params: {'boosting_type': 'gbdt', 'learning_rate': 0.1293700315892974, 'max_depth': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-12-21 23:32:04,201 - INFO Evaluating model.
+2025-12-21 23:32:04,253 - INFO Accuracy Score : 0.8814506539833532
+2025-12-21 23:32:04,254 - INFO Precision Score : 0.8670480549199084
+2025-12-21 23:32:04,254 - INFO Recall Score : 0.9010701545778834
+2025-12-21 23:32:04,254 - INFO F1 Score : 0.883731778425656
+2025-12-21 23:32:04,255 - INFO Saving model
+2025-12-21 23:32:04,315 - INFO Saved model: src/artifacts/models/lgbm_model.pkl
+2025-12-21 23:37:38,429 - INFO Starting Model training pipeline
+2025-12-21 23:37:38,451 - ERROR Error in model training pipeline
+Traceback (most recent call last):
+  File "C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\src\model_training.py", line 140, in run
+    mlflow.log_artifact(self.train_path, artifact_path="datasets")
+  File "C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\.venv\lib\site-packages\mlflow\tracking\fluent.py", line 996, in log_artifact
+    MlflowClient().log_artifact(run_id, local_path, artifact_path)
+  File "C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\.venv\lib\site-packages\mlflow\tracking\client.py", line 1149, in log_artifact
+    self._tracking_client.log_artifact(run_id, local_path, artifact_path)
+  File "C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\.venv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 529, in log_artifact
+    artifact_repo.log_artifact(local_path, artifact_path)
+  File "C:\Users\utkri\OneDrive\Documents\Udemy\MLOps_Project_1\.venv\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 38, in log_artifact
+    shutil.copy2(local_file, os.path.join(artifact_dir, os.path.basename(local_file)))
+  File "C:\Users\utkri\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 434, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\Users\utkri\AppData\Local\Programs\Python\Python310\lib\shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\utkri\\OneDrive\\Documents\\Udemy\\MLOps_Project_1\\artifacts\\processed\\processed_train.csv'

@@ -2,31 +2,23 @@ pipeline {
     agent any
 
     stages {
-
-        stage('Checkout Code') {
+        stage('Checkout') {
             steps {
-                checkout scmGit(
-                    branches: [[name: '*/main']],
-                    userRemoteConfigs: [[
-                        credentialsId: 'github-token',
-                        url: 'https://github.com/utkrisht14/Mlops_Project_1'
-                    ]]
-                )
+                checkout scm
             }
         }
 
         stage('Build Docker Image') {
             steps {
-                sh '''
-                docker build -t mlops-project-1:latest .
-                '''
+                sh 'docker build -t mlops-project-1:latest .'
             }
         }
 
-        stage('Run Container (Optional)') {
+        stage('Run Container') {
             steps {
                 sh '''
-                docker run -d -p 5000:5000 --name mlops_app mlops-project-1:latest || true
+                docker rm -f mlops_app || true
+                docker run -d -p 5000:5000 --name mlops_app mlops-project-1:latest
                 '''
             }
         }

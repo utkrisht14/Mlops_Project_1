@@ -1,33 +1,34 @@
-pipeline{
-	agent any
+pipeline {
+    agent any
 
-	environment{
-		VENV_DIR = 'venv'
+    stages {
 
-	}
+        stage('Checkout Code') {
+            steps {
+                checkout scmGit(
+                    branches: [[name: '*/main']],
+                    userRemoteConfigs: [[
+                        credentialsId: 'github-token',
+                        url: 'https://github.com/utkrisht14/Mlops_Project_1'
+                    ]]
+                )
+            }
+        }
 
-	stages{
-		stage('Cloning Github repo to Jenkins'){
-			steps{
-				script{
-					echo 'Cloning Github repo to Jenkins........'
-					checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/utkrisht14/Mlops_Project_1']])
-				}
-			}
-		}
+        stage('Build Docker Image') {
+            steps {
+                sh '''
+                docker build -t mlops-project-1:latest .
+                '''
+            }
+        }
 
-	stage('Setting up our Virtual Environment and Installing dependencies'){
-			steps{
-				script{
-					echo 'Setting up our Virtual Environment and Installing dependencies'
-					sh '''
-					python -m venv ${VENV_DIR}
-					. ${VENV_DIR}/bin/activate
-					 docker build -t mlops-project-1:latest .
-					'''
-				}
-			}
-		}
-
-	}
+        stage('Run Container (Optional)') {
+            steps {
+                sh '''
+                docker run -d -p 5000:5000 --name mlops_app mlops-project-1:latest || true
+                '''
+            }
+        }
+    }
 }

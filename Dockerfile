@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:3.10-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY . .
 
+RUN pip install --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -e .
 
 EXPOSE 5000
